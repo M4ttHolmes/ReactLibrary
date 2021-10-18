@@ -9,6 +9,7 @@ import FunctionalComponentDemo from "../concepts/FunctionalComponents/Functional
 import ClassComponentDemo from "../concepts/ClassComponents/ClassComponentsDemo";
 import JSX from "../concepts/JSX/JSX";
 import State from "../concepts/State/State";
+import Props from "../concepts/Props/Props";
 
 const Sidebar = () => {
     return(
@@ -21,6 +22,7 @@ const Sidebar = () => {
                     <li><Link to="/classcomponent">Class Component</Link></li>
                     <li><Link to="/jsx">JSX</Link></li>
                     <li><Link to="/state">State</Link></li>
+                    <li><Link to="/props">Props</Link></li>
                 </ul>
             </div>
             <div className="sidebar-route">
@@ -31,6 +33,7 @@ const Sidebar = () => {
                     <Route exact path="/classcomponent"><ClassComponentDemo /></Route>
                     <Route exact path="/jsx"><JSX /></Route>
                     <Route exact path="/state"><State /></Route>
+                    <Route exact path="/props"><Props /></Route>
                 </Switch>
             </div>
         </div>
