@@ -19,7 +19,7 @@ const ClockApp = () => {
     return(
         <div>
             <h1 className="section-title">React Clock</h1>
-            <hr className="explanation" />
+            <h5>Indianapolis:</h5>
             <p>{time}</p>
         </div>
     )
