@@ -1,6 +1,6 @@
 import NormalComponent from "./ChildComponents/NormalComponent";
 import CreateElementComponent from "./ChildComponents/CreateElementComponents";
-import ClassComponentDemo from "../ClassComponents/ClassComponentsDemo";
+// import ClassComponentDemo from "../ClassComponents/ClassComponentsDemo";
 
 const JSX = () => {
     return(
