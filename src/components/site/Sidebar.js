@@ -11,6 +11,7 @@ import JSX from "../concepts/JSX/JSX";
 import State from "../concepts/State/State";
 import Props from "../concepts/Props/Props";
 import LifecycleMethods from "../concepts/LifecycleMethods/LifecycleMethods";
+import TimePiecesApp from "../concepts/apps/timer-apps/TimePiecesApp";
 
 const Sidebar = () => {
     return(
@@ -25,6 +26,7 @@ const Sidebar = () => {
                     <li><Link to="/state">State</Link></li>
                     <li><Link to="/props">Props</Link></li>
                     <li><Link to="/lifecyclemethods">Lifecycle Methods</Link></li>
+                    <li><Link to="/timer">Timers</Link></li>
                 </ul>
             </div>
             <div className="sidebar-route">
@@ -37,6 +39,7 @@ const Sidebar = () => {
                     <Route exact path="/state"><State /></Route>
                     <Route exact path="/props"><Props /></Route>
                     <Route exact path="/lifecyclemethods"><LifecycleMethods /></Route>
+                    <Route exact path="/timer"><TimePiecesApp /></Route>
                 </Switch>
             </div>
         </div>
